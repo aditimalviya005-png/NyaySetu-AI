@@ -6,9 +6,9 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 
 # 1. Website ka Sunder Look aur Title
-st.set_page_config(page_title="Nyaya AI", page_icon="⚖️", layout="centered")
+st.set_page_config(page_title="NyaySetu AI", page_icon="⚖️", layout="centered")
 
-st.markdown("## ⚖️ Nyaya AI: Legal Assistant Chatbot")
+st.markdown("## ⚖️ NyaySetu AI: Legal Assistant Chatbot")
 st.write("Apna kanooni sawal kisi bhi bhasha me poochein")
 st.write("---")
 
