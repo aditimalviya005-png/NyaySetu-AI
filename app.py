@@ -8,8 +8,8 @@ from langchain_community.embeddings import SentenceTransformerEmbeddings
 # 1. Website ka Sunder Look aur Title
 st.set_page_config(page_title="Nyaya AI", page_icon="⚖️", layout="centered")
 
-st.markdown("<h2 style='text-align: center; color: #1E3A8A;'>⚖️ Nyaya AI: Legal Assistant</h2>", unsafe_index=True)
-st.markdown("<p style='text-align: center; color: #6B7280;'>Apna kanooni sawal kisi bhi bhasha me puchiye aur turant jawab paiye!</p>", unsafe_index=True)
+st.markdown("## ⚖️ Nyaya AI: Legal Assistant Chatbot")
+st.write("Apna kanooni sawal kisi bhi bhasha me poochein")
 st.write("---")
 
 # 2. ZIP Folder ko automatic extract karna (Roz upload ka jhanjhat khatam!)
